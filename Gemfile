@@ -34,6 +34,5 @@ if File.directory?("../ccm_jekyll_theme")
   gem 'ccm-2018', :path => '../ccm_jekyll_theme'
 else
   puts "Using github version of jekyll theme"
-  gem 'ccm-2018', :git => 'https://github.com/tomduckering/ccm_jekyll_theme.git'
+  gem 'ccm-2018', :git => 'https://github.com/tomduckering/ccm_jekyll_theme.git', :branch => 'add_workers_to_the_menu'
 end
-
